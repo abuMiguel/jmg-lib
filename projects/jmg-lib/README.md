@@ -25,4 +25,4 @@ import { JmgLibModule } from 'jmg-lib';
 
 ## License
 
-jmg-lib is [MIT licensed](https://github.com/abuMiguel/jmg-lib/LICENSE.txt).
+jmg-lib is [MIT licensed](https://github.com/abuMiguel/jmg-lib/blob/master/projects/jmg-lib/LICENSE.txt).
