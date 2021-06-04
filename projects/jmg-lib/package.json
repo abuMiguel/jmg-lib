@@ -1,6 +1,6 @@
 {
   "name": "jmg-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular library for common tasks such as a social media component.",
   "peerDependencies": {
     "@angular/common": "^11.2.14",
@@ -14,5 +14,8 @@
     "url": "https://github.com/abuMiguel/jmg-lib.git"
   },
   "homepage": "https://jemigo.com",
-  "keywords": ["Angular", "social media"]
+  "keywords": [
+    "Angular",
+    "social media"
+  ]
 }
