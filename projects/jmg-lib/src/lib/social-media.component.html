@@ -1,0 +1,22 @@
+<section>
+    <button *ngIf="githubName" mat-icon-button aria-label="GitHub icon button">
+        <a [ngClass]="{'social-button': coloredIcons == false,
+        'github-button': coloredIcons == true }" target="_blank" rel="noopener" href="https://github.com/{{githubName}}"><i
+                class="fab fa-github fa-lg"></i></a>
+    </button>
+    <button *ngIf="linkedInName" mat-icon-button aria-label="LinkedIn icon button">
+        <a [ngClass]="{'social-button': coloredIcons == false,
+        'linkedin-button': coloredIcons == true }" target="_blank" rel="noopener" href="https://www.linkedin.com/in/{{linkedInName}}"><i
+                class="fab fa-linkedin fa-lg"></i></a>
+    </button>
+    <button *ngIf="twitterName" mat-icon-button aria-label="Twitter icon button">
+        <a [ngClass]="{'social-button': coloredIcons == false,
+        'twitter-button': coloredIcons == true }" target="_blank" rel="noopener" href="https://twitter.com/{{twitterName}}"><i
+                class="fab fa-twitter fa-lg"></i></a>
+    </button>
+    <button *ngIf="facebookName" mat-icon-button aria-label="Facebook icon button">
+        <a [ngClass]="{'social-button': coloredIcons == false,
+        'facebook-button': coloredIcons == true }" target="_blank" rel="noopener" href="https://www.facebook.com/{{facebookName}}"><i
+                class="fab fa-facebook fa-lg"></i></a>
+    </button>
+</section>

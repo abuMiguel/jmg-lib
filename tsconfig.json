@@ -8,6 +8,12 @@
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "jmg-lib": [
+        "dist/jmg-lib/jmg-lib",
+        "dist/jmg-lib"
+      ]
+    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
